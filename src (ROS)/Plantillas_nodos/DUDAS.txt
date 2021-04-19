@@ -1,0 +1,10 @@
+Configurar bien para que no me salga el error en librerías
+Cada una de las cosas de cmake y package
+Comprobar todo subs y publ
+geometry_msgs/PointStamped/header??
+Cambiar algo de copiar el teleoperation_gazebo?
+Poner de otra forma float& msg
+geometry_msgs/TwistStamped (diferencia entre lineal y angular)
+como hacer para que aparezcan abajo los tipos de dato en visual studio
+como hacer lo de compilar y ejecutar
+Aprender a mirar bien los errores, donde compilar y como ejecutar
