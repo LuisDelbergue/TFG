@@ -8,3 +8,4 @@ geometry_msgs/TwistStamped (diferencia entre lineal y angular)
 como hacer para que aparezcan abajo los tipos de dato en visual studio
 como hacer lo de compilar y ejecutar
 Aprender a mirar bien los errores, donde compilar y como ejecutar
+.vscode lo pone visual studio? no hay que guardarlo en git no?
