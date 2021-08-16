@@ -1,0 +1,2 @@
+Detector_esquinas:Plantillas_nodos
+-DCATKIN_DEVEL_PREFIX=/home/cvar/Desktop/Universidad/Programación/TFG/ROS/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/cvar/Desktop/Universidad/Programación/TFG/ROS/catkin_ws/install -G Unix Makefiles

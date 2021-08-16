@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>Plantillas_nodos</name>
+  <version>0.0.1</version>
+  <description>The Plantillas_nodos package</description>
+
+  <maintainer email="la.delbergue@alumnos.upm.es">luis</maintainer>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <license>TODO</license>
+
+<!-- paquetes externos -->
+  <depend>roscpp</depend>
+  <depend>geometry_msgs</depend>
+
+</package>

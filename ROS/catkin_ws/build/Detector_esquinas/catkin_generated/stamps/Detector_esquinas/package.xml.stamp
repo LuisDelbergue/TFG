@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>Detector_esquinas</name>
+  <version>0.0.1</version>
+  <description>Detecta las esquinas</description>
+
+  <maintainer email="la.delbergue@alumnos.upm.es">luis</maintainer>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <license>TODO</license>
+
+<!-- paquetes externos -->
+  <depend>roscpp</depend>
+  <depend>sensor_msgs</depend>
+  <depend>cv_bridge</depend>
+  <depend>std_msgs</depend>
+  <depend>geometry_msgs</depend>
+  <depend>image_transport</depend>
+  <depend>aerostack_msgs</depend>
+  <depend>gazebo_ros</depend>
+
+  <export>
+    <gazebo_ros plugin_path="${prefix}/lib" gazebo_media_path="${prefix}" />
+  </export>
+
+</package>
+

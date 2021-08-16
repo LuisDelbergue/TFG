@@ -1,0 +1,8 @@
+prefix=/home/cvar/Desktop/Universidad/Programación/TFG/ROS/catkin_ws/install
+
+Name: Detector_esquinas
+Description: Description of Detector_esquinas
+Version: 0.0.1
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -lDetector_esquinas
+Requires: roscpp sensor_msgs cv_bridge std_msgs geometry_msgs image_transport aerostack_msgs gazebo_ros

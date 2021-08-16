@@ -1,0 +1,8 @@
+prefix=/home/cvar/Desktop/Universidad/Programación/TFG/ROS/catkin_ws/devel
+
+Name: Plantillas_nodos
+Description: Description of Plantillas_nodos
+Version: 0.0.1
+Cflags: -I/home/cvar/Desktop/Universidad/Programación/TFG/ROS/catkin_ws/src/Plantillas_nodos/include
+Libs: -L${prefix}/lib -lPlantillas_nodos
+Requires: roscpp geometry_msgs
