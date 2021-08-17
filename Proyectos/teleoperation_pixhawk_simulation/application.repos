@@ -1,0 +1,141 @@
+repositories:
+
+#----------------------------------------------------------------------------
+# Messages
+#----------------------------------------------------------------------------
+  messages/aerostack_msgs:
+    type: git 
+    url: https://github.com/aerostack/aerostack_msgs
+    version: master
+
+#----------------------------------------------------------------------------
+# Behaviors
+#----------------------------------------------------------------------------
+  behaviors/quadrotor_motion_with_pid_control:
+    type: git 
+    url: https://github.com/aerostack/quadrotor_motion_with_pid_control
+    version: master
+  behaviors/basic_quadrotor_behaviors:
+    type: git 
+    url: https://github.com/aerostack/basic_quadrotor_behaviors
+    version: master
+  behaviors/quadrotor_motion_with_df_control:
+    type: git 
+    url: https://github.com/aerostack/quadrotor_motion_with_df_control
+    version: master
+    
+#----------------------------------------------------------------------------
+# Mission control
+#----------------------------------------------------------------------------
+  mission_control/python_based_mission_interpreter:
+     type: git 
+     url: https://github.com/aerostack/python_based_mission_interpreter
+     version: master
+
+#----------------------------------------------------------------------------
+# Executive
+#----------------------------------------------------------------------------
+  executive/coordinator_cbc:
+    type: git 
+    url: https://github.com/cvar-upm/coordinator_cbc
+    version: master
+  executive/belief_manager:
+    type: git
+    url: https://github.com/aerostack/belief_manager
+    version: master
+
+#----------------------------------------------------------------------------
+# Simulation
+#----------------------------------------------------------------------------
+  simulation/px4_autopilot:
+    type: git 
+    url: https://github.com/aerostack/px4_autopilot
+    version: master
+    
+#----------------------------------------------------------------------------
+# Hardware interface
+#----------------------------------------------------------------------------
+  hardware_interface/pixhawk_interface:
+    type: git 
+    url: https://github.com/aerostack/pixhawk_interface
+    version: master
+
+#----------------------------------------------------------------------------
+# User interface
+#----------------------------------------------------------------------------
+  user_interface/alphanumeric_viewer:
+    type: git 
+    url: https://github.com/aerostack/alphanumeric_viewer
+    version: master
+  user_interface/keyboard_teleoperation_with_pid_control:
+    type: git 
+    url: https://github.com/aerostack/keyboard_teleoperation_with_pid_control
+    version: master
+
+#----------------------------------------------------------------------------
+# Libraries
+#----------------------------------------------------------------------------
+  libraries/behaviorlib:
+    type: git 
+    url: https://github.com/cvar-upm/behaviorlib
+    version: master
+  libraries/robot_process:
+    type: git 
+    url: https://github.com/aerostack/robot_process
+    version: master
+  libraries/lib_cvgekf:
+    type: git 
+    url: https://github.com/aerostack/lib_cvgekf
+    version: master
+  libraries/lib_cvgutils:
+    type: git 
+    url: https://github.com/aerostack/lib_cvgutils
+    version: master
+  libraries/mav_comm:
+    type: git
+    url: https://github.com/aerostack/mav_comm
+    version: master
+  libraries/pugixml:
+    type: git 
+    url: https://github.com/aerostack/pugixml
+    version: master
+  libraries/ros_utils_lib:
+    type: git 
+    url: https://github.com/aerostack/ros_utils_lib
+    version: master    
+  libraries/catkin_simple:
+    type: git
+    url: https://github.com/aerostack/catkin_simple
+    version: master
+  libraries/eigen_catkin:
+    type: git 
+    url: https://github.com/aerostack/eigen_catkin
+    version: master
+
+#----------------------------------------------------------------------------
+# Deprecated
+#----------------------------------------------------------------------------
+
+#----------------------------------------------------------------------------
+# Deprecated libraries
+#----------------------------------------------------------------------------
+  deprecated/libraries/drone_process:
+    type: git 
+    url: https://github.com/aerostack/drone_process
+    version: master
+  deprecated/libraries/dronemoduleinterfaceros:
+    type: git 
+    url: https://github.com/aerostack/dronemoduleinterfaceros
+    version: master
+  deprecated/libraries/dronemoduleros:
+    type: git 
+    url: https://github.com/aerostack/dronemoduleros
+    version: master
+
+#----------------------------------------------------------------------------
+# Deprecated messages
+#----------------------------------------------------------------------------
+  deprecated/messages/dronemsgsros:
+    type: git 
+    url: https://github.com/aerostack/dronemsgsros
+    version: master
